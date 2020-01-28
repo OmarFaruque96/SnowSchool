@@ -1,0 +1,324 @@
+/* fonts imported */
+@import url('https://fonts.googleapis.com/css?family=Catamaran:900|Muli:400,500,700,900&display=swap');
+/* global section */
+
+body{
+	font-family: 'Muli', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Catamaran', sans-serif;
+}
+span,p,a{
+	font-family: 'Muli', sans-serif;
+}
+  
+/*=================================================
+		header section css 
+===================================================*/
+
+header{
+	font-family: 'Muli', sans-serif;
+	background: #325b8c;
+}
+header .header_section{
+}
+header .header_section .header_menubar{
+	padding-left: 50px; 
+}
+header .header_section .header_menubar nav{
+	background: transparent;
+}
+.nav-item .nav-link{
+	color: #fff !important;
+}
+header ul li a{
+	font-family: 'Muli', sans-serif;
+	font-style: bold;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+/*=================================================
+		banner section css 
+===================================================*/
+
+.banner{
+	padding-top: 70px;
+}
+.banner_content{
+	text-align: center;
+	font-family: 'Catamaran', sans-serif;
+	font-style: black;
+	margin-top: 30px;
+}
+.banner_content h6{
+	color: #7da4c6;
+	font-size: 28px;
+	font-weight: 900px;
+	font-style: black;
+	font-family: 'Catamaran', sans-serif;
+}
+.banner_content h1{
+	margin-top: 20px;
+	font-size: 166px;
+	color: #4c87bf;
+	font-family: 'Catamaran', sans-serif;
+
+}
+.banner_content .hill_img{
+	position: absolute;
+	margin-top: -80px;
+}
+.banner_content .banner_text_content{
+	position: absolute;
+}
+.banner_left_content{
+	text-align: left;
+	margin-top: 70px;
+}
+.banner_left_content p{
+	color: #fff;
+	margin-bottom: 30px;
+}
+.banner_content .banner_text_content .banner_button{
+	padding-top: 20px;
+}
+.banner_content .banner_text_content .banner_button a{
+	color: #fff;
+	background: #ff690f;
+	border: 1px solid #ff690f;
+	border-radius: 3px;
+	padding: 12px 15px;
+	text-decoration: none;
+} 
+.banner_content .banner_text_content img{
+	margin-top: -120px;
+	margin-left: -100px;
+	width: auto;
+	height: 560px;
+}
+.banner_content .snow_img{
+	position: relative;
+	margin-top: 260px;
+	width: 100%;
+}
+.banner_content .snow_border_img{
+	position: absolute;
+	margin-top: -80px;
+	width: 100%;
+}
+
+/*=================================================
+		what we offer section css 
+===================================================*/
+
+#offer{
+	padding: 120px 0;
+}
+#offer .offer_title{
+	text-align: center;
+}
+#offer .offer_title h2{
+	font-size: 44px;
+	font-family: font-family: 'Catamaran', sans-serif;
+	color: #2f2f2f; 
+	text-transform: uppercase;
+}
+#offer .offer_title p{
+	padding-top: 10px;
+	color: #a4a4a4;
+}
+#offer .offer_card{
+	padding-top: 40px; 
+	text-align: center;
+	text-transform: uppercase;
+}
+#offer .offer_card img{
+	height: 120px;
+	width: 120px;
+	margin-bottom: 20px; 
+}
+#offer .offer_card p{
+	font-size: 12px;
+	color: #dadada;
+}
+#offer .offer_card h6{
+	font-size: 24px;
+}
+#offer .offer_card .offer_button {
+	margin-top: 30px;
+}
+#offer .offer_card .offer_button a{
+	color: #fff;
+	text-decoration: none;
+	padding: 12px;
+	background: #ff660d;
+	font-size: 10px;
+	border-radius: 4px;
+
+}
+
+/*=================================================
+		image gallery section css 
+===================================================*/
+
+#gallery .col-md-4{
+	padding: 0;
+	margin: 0;
+}
+
+/*=================================================
+		crew section css 
+===================================================*/
+
+
+#crew{
+	padding: 100px 0;
+	text-align: center;
+}
+#crew .crew_title{
+	text-transform: uppercase;
+}
+#crew .crew_title h2{
+	font-size: 44px;
+	font-family: font-family: 'Catamaran', sans-serif;
+	color: #2f2f2f; 
+}
+.crew_profile{
+	margin-top: 50px;
+}
+.profile_card img{
+	height: 180px;
+	width: 180px;
+}
+.profile_card p{
+	padding-top: 20px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.profile_card h6{
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/*=================================================
+		about section css 
+===================================================*/
+
+#about {
+	background: url(../img/about.png) no-repeat fixed top center;
+}
+#about .background{
+	padding:140px 0;
+}
+#about .background .about_content{
+	text-align: left;
+}
+#about .background .about_content h2{
+	font-size: 56px;
+	font-family: 'Catamaran', sans-serif;
+	color: #2b2b2b;
+	margin-bottom: 15px;
+}
+#about .background .about_content p{
+	font-size: 14px;
+	font-family: 'Muli', sans-serif;
+	color: #4e4f50;
+}
+#about .background .about_content .number{
+	margin-top: 40px;
+}
+#about .background .about_content .number h2{
+	font-size: 44px;
+	font-family: 'Catamaran', sans-serif;
+	color: #ff660d;
+}
+#about .background .about_content .number p{
+	font-size: 12px;
+	font-family: 'Muli', sans-serif;
+	color: #4e4f50;
+	text-transform: uppercase;
+}
+
+/*=================================================
+		testimonial section css 
+===================================================*/
+
+.testimonial_area{
+	background: #f7f7f7;
+	padding: 100px 0;
+}
+.testimonial_area .testimonial_section{
+	text-align: center;
+}
+.testimonial_area .testimonial_section h2{
+	text-transform: uppercase;
+	font-size: 54px;
+	font-family: 'Catamaran', sans-serif;
+	color: #2b2b2b;
+	margin-bottom: 25px;
+}
+.testimonial_area .testimonial_content{
+	text-align: center;
+}
+.testimonial_area .testimonial_content h6{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Catamaran', sans-serif;
+	color: #2b2b2b;
+	margin-bottom: 25px;
+	margin-top: 20px;
+}
+.testimonial_area .testimonial_content  p{
+	font-size: 12px;
+	color: #d3d3d3;
+}
+
+.testimonial_area .testimonial_content img{
+	height: 10%;
+	width: 10%;
+	border-radius: 100%;
+}
+/*=================================================
+		contact section css 
+===================================================*/
+
+#contact{
+	background: #2f2f2f;
+}
+#contact .info{
+	padding-top: 80px;
+	padding-left: 100px;
+}
+#contact .info h2{
+	font-size: 44px;
+	font-family: 'Catamaran', sans-serif;
+	color: #fff;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+#contact .info p{
+	font-size: 12px;
+	color: #d3d3d3;
+}
+#contact .info i{
+	font-size: 14px;
+	color: #ff600a;
+	margin: 0 12px;
+
+}
+#contact .icon{
+	margin-left: 80px;
+}
+#contact .icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+#contact .icon ul li a{
+	font-size: 26px;
+	color: #979797;
+}

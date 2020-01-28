@@ -1,0 +1,38 @@
+
+@media screen and (min-width: 1200px) {
+  	.banner_content .snow_img{
+		position: relative;
+		margin-top: 300px;
+		width: 100%;
+		left: 0%;
+	}
+}
+@media screen and (min-width: 992px) {
+  
+}
+@media screen and (min-width: 768px) {
+  
+}
+@media screen and (max-width: 421px) {
+   
+}
+@media screen and (min-width: 372px) {
+
+}
+@media only screen and (orientation: landscape) {
+  
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  
+}
+/* When the width is between 600px and 900px OR above 1100px - change the appearance of <div> */
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+  
+}
+
+@media screen and (max-width: 556px){
+
+	
+}
+
+
